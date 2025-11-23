@@ -1,0 +1,79 @@
+import requests
+import json
+import os
+
+class Helper:
+    def __init__(self, main):
+        self.main = main
+        self.api_key = "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"
+        if not self.api_key:
+            raise ValueError("OPENROUTER_API_KEY environment variable not set!")
+        
+        self.url = "https://openrouter.ai/api/v1/chat/completions"
+        self.model = "meta-llama/llama-3.3-70b-instruct"
+    
+    def chatLLM(self, messages):
+        """
+        Stream chat completion from OpenRouter using Llama 3.3 70B
+        messages: [{"role": "system/user/assistant", "content": "..."}]
+        """
+        print(f"🦙 Sending request to Llama 3.3 70B via OpenRouter...")
+        
+        payload = {
+            "model": self.model,
+            "messages": messages,
+            "stream": True,
+            "temperature": 0.7,  # Optional: adjust for more/less creative responses
+            "max_tokens": 150    # Optional: keep responses brief for driving safety
+        }
+        
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://driver-monitor.local",
+            "X-Title": "Driver Monitoring System"
+        }
+        
+        try:
+            response = requests.post(
+                self.url,
+                headers=headers,
+                json=payload,
+                stream=True,
+                timeout=30  # 30 second timeout
+            )
+            
+            if response.status_code != 200:
+                print(f"❌ OpenRouter API error: {response.status_code}")
+                print(f"Response: {response.text}")
+                return
+            
+            print("✅ Streaming response...")
+            
+            for line in response.iter_lines():
+                if line:
+                    decoded_line = line.decode("utf-8")
+                    
+                    if decoded_line.startswith("data: "):
+                        data = decoded_line.replace("data: ", "")
+                        
+                        if data == "[DONE]":
+                            print("\n✅ Response complete")
+                            break
+                        
+                        try:
+                            chunk = json.loads(data)
+                            delta = chunk["choices"][0]["delta"].get("content", "")
+                            if delta:
+                                print(delta, end="", flush=True)
+                                self.main.textOutputQueue.put(delta)
+                        
+                        except (json.JSONDecodeError, KeyError) as e:
+                            continue
+        
+        except requests.exceptions.Timeout:
+            print("❌ Request timed out")
+        except Exception as e:
+            print(f"❌ Error calling OpenRouter: {e}")
+            import traceback
+            traceback.print_exc()
