@@ -5,7 +5,7 @@ import os
 class Helper:
     def __init__(self, main):
         self.main = main
-        self.api_key = "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"
+        self.api_key = "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"
         if not self.api_key:
             raise ValueError("OPENROUTER_API_KEY environment variable not set!")
         
@@ -18,13 +18,15 @@ class Helper:
         messages: [{"role": "system/user/assistant", "content": "..."}]
         """
         print(f"🦙 Sending request to Llama 3.3 70B via OpenRouter...")
+
+        self.main.LLMStart=True
         
         payload = {
             "model": self.model,
             "messages": messages,
             "stream": True,
             "temperature": 0.7,  # Optional: adjust for more/less creative responses
-            "max_tokens": 150    # Optional: keep responses brief for driving safety
+            "max_tokens": 100    # Optional: keep responses brief for driving safety
         }
         
         headers = {
@@ -49,6 +51,8 @@ class Helper:
                 return
             
             print("✅ Streaming response...")
+            self.main.UserCanSpeak=False
+            _data_to_append_messages=""
             
             for line in response.iter_lines():
                 if line:
@@ -58,7 +62,8 @@ class Helper:
                         data = decoded_line.replace("data: ", "")
                         
                         if data == "[DONE]":
-                            print("\n✅ Response complete")
+                            
+                            print("\n✅ Response complete",{"UserCanSpeak":True})
                             break
                         
                         try:
@@ -66,10 +71,19 @@ class Helper:
                             delta = chunk["choices"][0]["delta"].get("content", "")
                             if delta:
                                 print(delta, end="", flush=True)
+                                _data_to_append_messages+=delta
                                 self.main.textOutputQueue.put(delta)
                         
                         except (json.JSONDecodeError, KeyError) as e:
                             continue
+            print("Are we reaching here")
+
+            self.main.messages.append({
+    "role": "assistant",
+    "content": _data_to_append_messages
+})
+
+
         
         except requests.exceptions.Timeout:
             print("❌ Request timed out")

@@ -6,6 +6,7 @@ import onnxruntime as ort
 import os
 
 from parentClass.main import DMSLMMain
+import threading
 
 
 def detect_eyes(image):
@@ -54,6 +55,8 @@ class dMonitoring(DMSLMMain):
         self.last_updated = 0
         self.update_rate = 1.0 / 8.0
         self.bbox = {"left": None, "right": None}
+        threading.Thread(target=self.continuscheck, daemon=True).start()
+
 
     def preprocess(self, img):
         img = cv2.resize(img, (40, 24))
@@ -125,7 +128,7 @@ class dMonitoring(DMSLMMain):
         while True:
             try:
                 item = self.main.imageQueue.get()   # FIXED: no tuple unpack
-                print("Fetched data from queue:", item["time"])
+                #print("Fetched data from queue:", item["time"])
                 jpg = np.frombuffer(item["bytes"], dtype=np.uint8)
                 frame = cv2.imdecode(jpg, cv2.IMREAD_COLOR)
                 if frame is None:
@@ -135,10 +138,10 @@ class dMonitoring(DMSLMMain):
                 self.update_bbox(frame)
                 result = self.check(frame)
                 result["time"] = item["time"]
-                print(result,time.time())
+                #print(result,time.time())
                 self.main.processdImageJsonQueue.put(result)
-                print("end",time.time(),"ms")
-                print("Added to processedImageJsonQueue")
+                #print("end",time.time(),"ms")
+                #print("Added to processedImageJsonQueue")
             except Exception as e:
                 print("🔥 Error in continuscheck:", e)
                 continue

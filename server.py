@@ -1,8 +1,13 @@
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.responses import JSONResponse
-from shared import DSLMController
+from controller import create_controller  
+import warnings
+warnings.filterwarnings("ignore")
 
 app = FastAPI()
+
+DSLMController, monitor, llm, tts, helper, voice = create_controller()
+
 
 @app.post("/image")
 async def image(
@@ -10,17 +15,14 @@ async def image(
     time: str = Form(...)
 ):
     try:
-        # Read binary JPG bytes
-        content = await image.read()
 
-        # Put into queue: both image and timestamp
+        content = await image.read()
 
         DSLMController.imageQueue.put({
             "filename": image.filename,
             "time": time,
             "bytes": content,
         })
-
 
         return {"msg": "queued"}
 

@@ -90,6 +90,11 @@ class PiperTTS(DMSLMMain):
 
                     sd.play(audio_float, samplerate=22050, blocking=True)
                     print("Audio playback complete")
+                    
+
+
+           
+
 
                 except Exception as e:
                     print(f"Audio play error: {e}")  # FIX: Added f-string
@@ -105,6 +110,7 @@ class PiperTTS(DMSLMMain):
 
     def finish(self):
         """Call this when done to clean up"""
+        self.main.UserCanSpeak=True
         self.main.textOutputQueue.put(None)  # Signal text processor to finish
         self.text_processor_thread.join()
         
