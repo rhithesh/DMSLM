@@ -53,7 +53,8 @@ class LLMClass(DMSLMMain):
                         "content": content
                         }
                         ]
-                        self.main.messages=messages
+                        if len(self.main.messages)==0:
+                            self.main.messages.extend(messages)
 
                         if self.stoper:
                             self.stoper=0

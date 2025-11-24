@@ -22,8 +22,8 @@ class  DMSLMMain():
     def display_queue(self):
         while True:
             print("ID", id(self))
-
             print(self.messages)
+
             time.sleep(1)
 
 

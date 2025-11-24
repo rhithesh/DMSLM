@@ -78,10 +78,8 @@ class Helper:
                             continue
             print("Are we reaching here")
 
-            self.main.messages.append({
-    "role": "assistant",
-    "content": _data_to_append_messages
-})
+            self.main.messages.append({"role": "assistant","content": _data_to_append_messages})
+            print("Let is where we are",self.main.messages)
 
 
         
