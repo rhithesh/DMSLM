@@ -15,6 +15,7 @@ class  DMSLMMain():
         print("Created Image Queue")
         self.processdImageJsonQueue=queue.Queue()
         self.textOutputQueue=queue.Queue()
+        self.event_queue=queue.Queue()
         print("Created ProcessedImageJson Queue")
         threading.Thread(target=self.display_queue, daemon=True).start()
 

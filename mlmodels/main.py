@@ -129,6 +129,9 @@ class dMonitoring(DMSLMMain):
             try:
                 item = self.main.imageQueue.get()   # FIXED: no tuple unpack
                 #print("Fetched data from queue:", item["time"])
+                start = time.perf_counter()
+
+
                 jpg = np.frombuffer(item["bytes"], dtype=np.uint8)
                 frame = cv2.imdecode(jpg, cv2.IMREAD_COLOR)
                 if frame is None:
@@ -137,9 +140,15 @@ class dMonitoring(DMSLMMain):
                 
                 self.update_bbox(frame)
                 result = self.check(frame)
-                result["time"] = item["time"]
-                #print(result,time.time())
+                end = time.perf_counter()
+                
+
+                
                 self.main.processdImageJsonQueue.put(result)
+                diff=(end-start)*1000
+                print(diff,"Time to process")
+                
+                self.main.event_queue.put({"imp":diff,**result })
                 #print("end",time.time(),"ms")
                 #print("Added to processedImageJsonQueue")
             except Exception as e:
