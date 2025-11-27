@@ -45,7 +45,6 @@ def event_stream():
     """Blocking generator that waits for items in the queue"""
     while True:
         data = DSLMController.event_queue.get()   # waits until something is available
-        print(data,"Helloo")
         yield f"data: {json.dumps(data)}\n\n"
 
 

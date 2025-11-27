@@ -1,0 +1,30 @@
+INFO:     Will watch for changes in these directories: ['/Users/hithesh/Downloads/DMSLM']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [54820] using WatchFiles
+INFO:     Started server process [54835]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'whispermodule/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [54835]
+INFO:     Started server process [54949]
+INFO:     Waiting for application startup.
+Exception in thread Thread-7 (_listen):
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+INFO:     Application startup complete.
+    self.run()
+  File "/opt/anaconda3/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/hithesh/Downloads/DMSLM/whispermodule/main.py", line 50, in _listen
+    with sd.InputStream(
+         ^^^^^^^^^^^^^^^
+  File "/Users/hithesh/Downloads/DMSLM/.venv/lib/python3.12/site-packages/sounddevice.py", line 1452, in __init__
+    _StreamBase.__init__(self, kind='input', wrap_callback='array',
+  File "/Users/hithesh/Downloads/DMSLM/.venv/lib/python3.12/site-packages/sounddevice.py", line 909, in __init__
+    _check(_lib.Pa_OpenStream(self._ptr, iparameters, oparameters,
+  File "/Users/hithesh/Downloads/DMSLM/.venv/lib/python3.12/site-packages/sounddevice.py", line 2823, in _check
+    raise PortAudioError(errormsg, err)
+sounddevice.PortAudioError: Error opening InputStream: Invalid number of channels [PaErrorCode -9998]

@@ -32,22 +32,20 @@ class LLMClass(DMSLMMain):
                 right = obj["right_eye"]
                 if left == "closed" and right == "closed":
                     self.closed_counter += 1
+                    self.main.event_queue.put({"closed_counter":self.closed_counter})
                 else:
                     self.closed_counter = 0
-                #print(f"[LLM] Eyes: L={left} R={right} | closed_count={self.closed_counter}",{self.main.LLMSTART})
+                #print(f"[LLM] Eyes: L={left} R={right} | closed_count={self.closed_counter}",{self.main.firstLLMtrigger})
                 print(self.closed_counter)
-                if self.closed_counter > 8:
+                if self.closed_counter > 3:
                     
                     try:
                 
 
                         message = f"The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: {self.closed_counter}, Start a Conversation and please let me know if the driver is drowsy or not."
                         print("⚠️ ", message)
-                        content = f"The driver seems to be drowsy. Their eyes were closed for {self.closed_counter} consecutive frames out of 30 fps. Start a conversation to check if they are alert, Remeber you are an voice assistant."
-                        messages = [{
-                        "role": "system",
-                        "content": "You are a friendly driving assistant that helps keep drivers alert and safe."
-                        },
+                        content = f"The driver seems to be drowsy. Their eyes were closed for {self.closed_counter} consecutive frames out of 30 fps. Start a conversation to check if they are alert, Remeber you are an voice assistant you have to give pure voice output."
+                        messages = [
                         {
                         "role": "user",
                         "content": content
@@ -55,17 +53,24 @@ class LLMClass(DMSLMMain):
                         ]
                         if len(self.main.messages)==0:
                             self.main.messages.extend(messages)
+                        self.main.firstLLMtrigger=True
 
-                        if self.stoper:
+
+
+
+                        if  self.main.firstLLMtrigger:
+                            self.main.firstLLMtrigger=False
+                            print("We are here")
                             self.stoper=0
                             self.helper.chatLLM(self.main.messages)
-                            print("LLMCALLED ONCE")
+                            print("LLM HAS BEEN Triggered")
+                            self.main.event_queue({"llm_Status":"active"})
 
                     except Exception as e:
                         print("Error calling LLM:", e)
                 
             except Exception as e:
-                print("🔥 Error in analyze_llm_call_need:", e)
+                print("Error in analyze_llm_call_need:", e)
                 continue
 
     

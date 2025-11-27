@@ -8,7 +8,7 @@ from faster_whisper import WhisperModel
 from parentClass.main import DMSLMMain
 
 class VoiceInput(DMSLMMain):
-    def __init__(self, main, device_index=1):
+    def __init__(self, main, device_index=3):
         self.main = main
         self.device_index = device_index
         
@@ -47,6 +47,8 @@ class VoiceInput(DMSLMMain):
     def _listen(self):
         print("🎤 Voice input started. Listening...")
 
+
+
         with sd.InputStream(
             samplerate=self.SAMPLE_RATE,
             blocksize=self.BLOCK_SIZE,
@@ -56,11 +58,15 @@ class VoiceInput(DMSLMMain):
             device=self.device_index
         ):
             while not self.stop_event.is_set():
+
                 
                 # Freeze listening if speaking not allowed
                 if not self.main.UserCanSpeak:
+                    #notfalse is true #by default It is true
                     time.sleep(0.2)
                     continue
+
+                
 
                 try:
                     chunk = self.audio_queue.get(timeout=0.1)
@@ -136,6 +142,8 @@ class VoiceInput(DMSLMMain):
                 segments, _ = self.whisper_model.transcribe(audio_float)
                 text = "".join([s.text for s in segments]).strip()
                 
+
+                #this is happening aldready
                 if text:
                     print(f"🎤 User said: {text}")
                     
@@ -145,7 +153,6 @@ class VoiceInput(DMSLMMain):
                         "content": text
                     }
                     
-                    # Initialize messages if it doesn't exist
                     if not hasattr(self.main, 'messages'):
                         self.main.messages = [
                             {
@@ -159,6 +166,7 @@ class VoiceInput(DMSLMMain):
 
 
                     try:
+                        print("Is this happening")
                         from server import helper
                         helper.chatLLM(self.main.messages)
                     except Exception as e:

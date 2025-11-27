@@ -5,7 +5,7 @@ import os
 class Helper:
     def __init__(self, main):
         self.main = main
-        self.api_key = "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"
+        self.api_key = "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"
         if not self.api_key:
             raise ValueError("OPENROUTER_API_KEY environment variable not set!")
         
@@ -19,7 +19,7 @@ class Helper:
         """
         print(f"🦙 Sending request to Llama 3.3 70B via OpenRouter...")
 
-        self.main.LLMStart=True
+        self.main.firstLLMtrigger=True
         
         payload = {
             "model": self.model,
@@ -37,6 +37,7 @@ class Helper:
         }
         
         try:
+            self.main.UserCanSpeak=False
             response = requests.post(
                 self.url,
                 headers=headers,
@@ -51,7 +52,6 @@ class Helper:
                 return
             
             print("✅ Streaming response...")
-            self.main.UserCanSpeak=False
             _data_to_append_messages=""
             
             for line in response.iter_lines():
@@ -63,7 +63,7 @@ class Helper:
                         
                         if data == "[DONE]":
                             
-                            print("\n✅ Response complete",{"UserCanSpeak":True})
+                            print("\n✅ Response complete")
                             break
                         
                         try:
@@ -76,10 +76,8 @@ class Helper:
                         
                         except (json.JSONDecodeError, KeyError) as e:
                             continue
-            print("Are we reaching here")
-
             self.main.messages.append({"role": "assistant","content": _data_to_append_messages})
-            print("Let is where we are",self.main.messages)
+            print("Let is where we are",self.main.messages[-1])
 
 
         

@@ -80,6 +80,8 @@ class PiperTTS(DMSLMMain):
             try:
                 audio_data = self.audio_queue.get()
                 if audio_data is None:
+                    print("OKay now user Can speak")
+                    self.main.UserCanSpeak=True
                     break
 
                 print(f"Playing audio: {len(audio_data)} bytes")

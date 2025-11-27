@@ -1,0 +1,1216 @@
+INFO:     Will watch for changes in these directories: ['/Users/hithesh/Downloads/DMSLM']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [91457] using WatchFiles
+INFO:     Started server process [91461]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ID 6210762080
+Started analyze LLM Function
+Loading Whisper and VAD models...
+ID 6210762080
+✅ Models loaded
+🎤 Voice input started. Listening...
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+INFO:     127.0.0.1:63010 - "GET /stream HTTP/1.1" 200 OK
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+ID 6210762080
+INFO:     127.0.0.1:63011 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63011 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63011 - "POST /image HTTP/1.1" 200 OK
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1764058736.264382 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+INFO:     127.0.0.1:63011 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63012 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63011 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63013 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63014 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1764058736.284308 6278244 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058736.288065 6278249 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058736.337523 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058736.338723 6278265 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058736.342372 6278265 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058736.486035 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058736.487165 6278272 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058736.489352 6278272 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058736.652634 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058736.653621 6278281 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058736.655406 6278284 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+0
+ID 6210762080
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058736.802286 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058736.803220 6278286 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058736.805510 6278286 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058736.935477 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058736.936459 6278296 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058736.938813 6278296 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058737.069473 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058737.070507 6278308 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058737.073170 6278308 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058737.201370 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058737.202387 6278341 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058737.204155 6278339 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058737.335907 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058737.336948 6278356 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058737.338936 6278357 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058737.469580 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058737.470576 6278361 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058737.472525 6278361 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058737.603117 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058737.604209 6278370 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058737.608115 6278374 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+ID 6210762080
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058737.735175 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058737.736089 6278378 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058737.738134 6278381 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058737.869465 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058737.874703 6278386 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058737.879943 6278390 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058738.011518 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058738.013825 6278397 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058738.015876 6278402 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058738.153555 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058738.154760 6278411 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058738.157451 6278407 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058738.288258 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058738.289346 6278417 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058738.291527 6278417 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058738.426125 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058738.427484 6278424 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058738.431100 6278427 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058738.553736 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058738.554951 6278435 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058738.557264 6278435 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058738.687999 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058738.689219 6278442 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058738.695621 6278444 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+ID 6210762080
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+1
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+2
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058738.820030 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058738.821023 6278451 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058738.822866 6278451 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+3
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058738.954327 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058738.955783 6278481 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058738.957978 6278481 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058739.086877 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058739.087858 6278492 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058739.090078 6278489 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+1
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058739.220554 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058739.221629 6278511 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058739.223442 6278511 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+2
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+3
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058739.353795 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058739.354849 6278530 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058739.356751 6278530 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058739.487259 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058739.488284 6278537 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058739.491365 6278537 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058739.620994 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058739.629869 6278553 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058739.638972 6278553 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+ID 6210762080
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058739.754603 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058739.755684 6278560 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058739.759602 6278560 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058739.903257 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058739.904802 6278569 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058739.910998 6278572 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058740.087356 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058740.091465 6278582 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058740.095807 6278584 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+0
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058740.202734 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058740.207024 6278593 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63015 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058740.250396 6278593 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058740.384459 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058740.386534 6278608 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058740.390011 6278608 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+0
+0
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058740.535619 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058740.537206 6278614 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058740.540808 6278620 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+0
+ID 6210762080
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058740.770043 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058740.772376 6278656 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058740.783061 6278655 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058740.884944 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058740.886836 6278672 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63023 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058740.897456 6278671 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+0
+0
+0
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058741.019090 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058741.026916 6278688 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058741.035218 6278688 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058741.135626 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058741.137293 6278706 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058741.143968 6278706 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058741.268732 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058741.270297 6278726 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058741.275951 6278726 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058741.441234 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058741.444040 6278753 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058741.448363 6278750 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+ID 6210762080
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058741.747387 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058741.749488 6278777 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058741.753503 6278777 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058741.886071 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058741.887180 6278783 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058741.889181 6278783 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058742.019320 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058742.020358 6278794 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058742.022681 6278794 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058742.151594 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058742.152816 6278804 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058742.154600 6278804 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058742.353760 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058742.357150 6278821 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058742.380906 6278816 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63023 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058742.471943 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058742.475315 6278833 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058742.483307 6278833 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+0
+0
+0
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058742.619219 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058742.620370 6278845 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058742.623784 6278845 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+ID 6210762080
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058742.752581 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058742.753696 6278853 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058742.756059 6278853 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058742.886884 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058742.887915 6278862 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058742.889988 6278865 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058743.038391 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058743.039818 6278870 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058743.042237 6278870 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058743.170827 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058743.172123 6278878 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058743.174803 6278878 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058743.305275 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058743.308236 6278885 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058743.313619 6278884 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058743.437324 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058743.439078 6278895 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058743.443675 6278900 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058743.578895 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058743.581192 6278920 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058743.583527 6278920 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058743.702279 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058743.703873 6278941 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058743.706366 6278941 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+ID 6210762080
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058743.835312 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058743.836559 6278951 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058743.839209 6278951 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058743.968694 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058743.970275 6278960 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058743.973950 6278959 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+0
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058744.129495 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058744.130585 6278966 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058744.133030 6278966 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+0
+1
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+2
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+3
+ID 6210762080
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63022 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63023 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63029 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058745.118507 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058745.126293 6278980 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058745.132394 6278978 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+4
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 4, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058745.220506 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+INFO:     127.0.0.1:63019 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058745.221927 6278988 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63025 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058745.225327 6278988 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058745.359872 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058745.360819 6279003 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058745.364983 6279003 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058745.487664 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058745.488657 6279010 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058745.490791 6279010 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058745.621148 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058745.622125 6279019 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058745.623989 6279023 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+ID 6210762080
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058745.755208 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058745.756140 6279047 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058745.758081 6279047 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058745.888175 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058745.889121 6279059 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058745.891578 6279061 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058746.021310 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058746.022168 6279067 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058746.023867 6279067 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058746.153613 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058746.154570 6279074 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058746.156808 6279078 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+✅ Streaming response...
+"Hey there, driver. I've noticed you've had your eyesSpeaking: "Hey there, driver.
+ closed for aINFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+ few seconds. AreINFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+ you feeling okay? Maybe we can take a quick break or I can help you with some music or a podcast to keep you company and alert on the road. How's your energy level right now?"
+✅ Response complete
+Let is where we are {'role': 'assistant', 'content': '"Hey there, driver. I\'ve noticed you\'ve had your eyes closed for a few seconds. Are you feeling okay? Maybe we can take a quick break or I can help you with some music or a podcast to keep you company and alert on the road. How\'s your energy level right now?"'}
+LLM HAS BEEN Triggered
+Error calling LLM: 'Queue' object is not callable
+5
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 5, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058746.288905 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058746.290585 6279085 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058746.292226 6279085 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+Queued audio: 66560 bytes
+Speaking: I've noticed you've had your eyes closed for a few seconds.
+Playing audio: 66560 bytes
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058746.440332 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058746.442820 6279088 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058746.448479 6279090 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058746.580225 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058746.582287 6279145 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058746.586703 6279145 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058746.706952 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058746.709441 6279160 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058746.711286 6279158 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Queued audio: 156160 bytes
+Speaking: Are you feeling okay?
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+ID 6210762080
+✅ Streaming response...
+
+✅ Response complete
+Let is where we are {'role': 'assistant', 'content': ''}
+LLM HAS BEEN Triggered
+Error calling LLM: 'Queue' object is not callable
+6
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 6, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+Queued audio: 69120 bytes
+Speaking: Maybe we can take a quick break or I can help you with some music or a podcast to keep you company and alert on the road.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058746.841130 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058746.843043 6279175 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058746.845031 6279174 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058746.975146 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058746.977175 6279188 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058746.980550 6279190 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058747.104067 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058747.106549 6279198 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058747.109826 6279201 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058747.256314 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058747.257693 6279208 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058747.268822 6279206 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+Queued audio: 317952 bytes
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058747.371703 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058747.376619 6279224 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058747.380899 6279223 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058747.511114 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058747.513198 6279232 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058747.516168 6279231 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+✅ Streaming response...
+(Pause for a brief moment to allow the driver to respond)
+
+"If you're feeling a bit tired, we're getting close to a rest stop. Would you like me to guide you there so you can take a short break and stretch your legs?"Speaking: How's your energy level right now?"(Pause for a brief moment to allow the driver to respond)
+
+"If you're feeling a bit tired, we're getting close to a rest stop.
+
+✅ Response complete
+Let is where we are {'role': 'assistant', 'content': '(Pause for a brief moment to allow the driver to respond)\n\n"If you\'re feeling a bit tired, we\'re getting close to a rest stop. Would you like me to guide you there so you can take a short break and stretch your legs?"'}
+LLM HAS BEEN Triggered
+Error calling LLM: 'Queue' object is not callable
+7
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 7, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058747.644000 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058747.647169 6279240 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058747.651155 6279241 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+ID 6210762080
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058747.773047 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058747.775448 6279248 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058747.784270 6279248 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058747.904873 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058747.907319 6279277 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058747.912138 6279278 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058748.057205 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058748.060225 6279289 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058748.077429 6279294 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+✅ Streaming response...
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058748.195667 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058748.197714 6279299 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058748.207547 6279298 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+
+✅ Response complete
+Let is where we are {'role': 'assistant', 'content': ''}
+LLM HAS BEEN Triggered
+Error calling LLM: 'Queue' object is not callable
+8
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 8, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058748.398500 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058748.400051 6279314 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058748.405675 6279313 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+Audio playback complete
+Playing audio: 156160 bytes
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+Queued audio: 437760 bytes
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058748.530967 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058748.532101 6279325 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058748.536832 6279326 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058748.687157 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058748.688152 6279334 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058748.690498 6279334 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+✅ Streaming response...
+(If the driver doesn't respond or seems unresponsive)
+
+"Hey, driver, can you please respond?ID 6210762080
+ I'm concernedINFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+Speaking: Would you like me to guide you there so you can take a short break and stretch your legs?"(If the driver doesn't respond or seems unresponsive)
+
+"Hey, driver, can you please respond?
+ about your safety on the road. If you're feeling drowsy, it's crucial we take a break. Let's pull over at the next safeINFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+ location, okay?"
+✅ Response complete
+Let is where we are {'role': 'assistant', 'content': '(If the driver doesn\'t respond or seems unresponsive)\n\n"Hey, driver, can you please respond? I\'m concerned about your safety on the road. If you\'re feeling drowsy, it\'s crucial we take a break. Let\'s pull over at the next safe location, okay?"'}
+LLM HAS BEEN Triggered
+Error calling LLM: 'Queue' object is not callable
+9
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 9, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058748.829349 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058748.836601 6279342 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058748.847988 6279346 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058748.955556 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058748.957458 6279351 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058748.961110 6279351 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058749.105845 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058749.111643 6279360 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058749.119362 6279360 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63032 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058749.247025 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058749.250161 6279369 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058749.254947 6279375 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058749.385549 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+W0000 00:00:1764058749.388263 6279377 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058749.391198 6279377 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+✅ Streaming response...
+
+✅ Response complete
+Let is where we are {'role': 'assistant', 'content': ''}
+LLM HAS BEEN Triggered
+Error calling LLM: 'Queue' object is not callable
+0
+0
+0
+0
+0
+0
+0
+0
+1
+2
+3
+4
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 4, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+INFO:     127.0.0.1:63031 - "POST /image HTTP/1.1" 200 OK
+I0000 00:00:1764058749.529309 6277148 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 89.4), renderer: Apple M1
+W0000 00:00:1764058749.531151 6279395 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1764058749.539754 6279395 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Queued audio: 491520 bytes
+Speaking: I'm concerned about your safety on the road.
+ID 6210762080
+Queued audio: 128000 bytes
+Speaking: If you're feeling drowsy, it's crucial we take a break.
+Queued audio: 155136 bytes
+✅ Streaming response...
+(If the driver still doesn't respond, consider activating additional safety features such as alerting emergency services or bringing the vehicle to a safe stop)
+✅ Response complete
+Let is where we are {'role': 'assistant', 'content': "(If the driver still doesn't respond, consider activating additional safety features such as alerting emergency services or bringing the vehicle to a safe stop)"}
+LLM HAS BEEN Triggered
+Error calling LLM: 'Queue' object is not callable
+5
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 5, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+✅ Streaming response...
+
+✅ Response complete
+Let is where we are {'role': 'assistant', 'content': ''}
+LLM HAS BEEN Triggered
+Error calling LLM: 'Queue' object is not callable
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+2
+3
+4
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 4, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+ID 6210762080
+✅ Streaming response...
+"Driver, I'm going to take control of the vehicle and bring it to a safe stop. Help will be on the way. PleaseSpeaking: Let's pull over at the next safe location, okay?"(If the driver still doesn't respond, consider activating additional safety features such as alerting emergency services or bringing the vehicle to a safe stop)"Driver, I'm going to take control of the vehicle and bring it to a safe stop.
+ stay calm and awake until assistance arrives."
+✅ Response complete
+Let is where we are {'role': 'assistant', 'content': '"Driver, I\'m going to take control of the vehicle and bring it to a safe stop. Help will be on the way. Please stay calm and awake until assistance arrives."'}
+LLM HAS BEEN Triggered
+Error calling LLM: 'Queue' object is not callable
+5
+⚠️  The driver seems to be drowsy. Closed eye frames 8/30 frames per second his eyes were closed: 5, Start a Conversation and please let me know if the driver is drowsy or not.
+We are here
+🦙 Sending request to Llama 3.3 70B via OpenRouter...
+ID 6210762080
+✅ Streaming response...
+ (Activate emergency protocols)

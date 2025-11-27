@@ -146,7 +146,6 @@ class dMonitoring(DMSLMMain):
                 
                 self.main.processdImageJsonQueue.put(result)
                 diff=(end-start)*1000
-                print(diff,"Time to process")
                 
                 self.main.event_queue.put({"imp":diff,**result })
                 #print("end",time.time(),"ms")
