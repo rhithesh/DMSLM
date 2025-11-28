@@ -8,12 +8,10 @@ class  DMSLMMain():
 
     def __init__(self):
         self.UserCanSpeak=True
-        self.chattingwithllm=False
         self.messages=[{
                         "role": "system",
                          "content": "You are a friendly driving voice assistant that helps keep drivers alert and safe. Keep your messages short and conversational. Your response is directly converted to speech so avoid bullet points, lists, or special formatting."
                         }]
-        self.firstLLMtrigger=False
         self._last_messages_count=0
         self.imageQueue=queue.Queue()
         self.processdImageJsonQueue=queue.Queue()
@@ -25,9 +23,11 @@ class  DMSLMMain():
     def display_queue(self):
         while True:
             print(json.dumps(self.messages, indent=4))
-            print("                 User   can speak                    ",self.UserCanSpeak      )            
+            print("                 User   can speak                    ",self.UserCanSpeak      )   
 
-            time.sleep(3)
+            self.event_queue.put({"llm_activated":not self.UserCanSpeak})         
+
+            time.sleep(1)
 
 
         

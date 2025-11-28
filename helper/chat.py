@@ -5,7 +5,7 @@ import os
 class Helper:
     def __init__(self, main):
         self.main = main
-        self.api_key = "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"
+        self.api_key = ""
         if not self.api_key:
             raise ValueError("OPENROUTER_API_KEY environment variable not set!")
         
@@ -19,7 +19,7 @@ class Helper:
         """
         print(f"🦙 Sending request to Llama 3.3 70B via OpenRouter...")
 
-        self.main.firstLLMtrigger=True
+        
         
         payload = {
             "model": self.model,

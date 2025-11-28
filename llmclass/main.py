@@ -35,9 +35,8 @@ class LLMClass(DMSLMMain):
                     self.main.event_queue.put({"closed_counter":self.closed_counter})
                 else:
                     self.closed_counter = 0
-                #print(f"[LLM] Eyes: L={left} R={right} | closed_count={self.closed_counter}",{self.main.firstLLMtrigger})
                 print(self.closed_counter)
-                if self.closed_counter > 3:
+                if self.closed_counter >= 9 and self.main.UserCanSpeak:
                     
                     try:
                 
@@ -51,20 +50,17 @@ class LLMClass(DMSLMMain):
                         "content": content
                         }
                         ]
-                        if len(self.main.messages)==0:
+                        if self.main.messages:
                             self.main.messages.extend(messages)
-                        self.main.firstLLMtrigger=True
+
+                        self.helper.chatLLM(self.main.messages)
+                        print("LLM HAS BEEN Triggered")
+                        self.main.event_queue({"llm_Status":"active"})
 
 
 
 
-                        if  self.main.firstLLMtrigger:
-                            self.main.firstLLMtrigger=False
-                            print("We are here")
-                            self.stoper=0
-                            self.helper.chatLLM(self.main.messages)
-                            print("LLM HAS BEEN Triggered")
-                            self.main.event_queue({"llm_Status":"active"})
+                                
 
                     except Exception as e:
                         print("Error calling LLM:", e)
