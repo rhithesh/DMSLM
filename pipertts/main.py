@@ -35,7 +35,9 @@ class PiperTTS(DMSLMMain):
                 if chunk is None:
                     if buffer.strip():
                         self._synthesize_and_queue(buffer)
-                    break  # FIX: Added break to exit loop
+                      # FIX: Added break to exit loop
+                        buffer=""
+                    continue
 
                 buffer += chunk
 
@@ -80,9 +82,9 @@ class PiperTTS(DMSLMMain):
             try:
                 audio_data = self.audio_queue.get()
                 if audio_data is None:
-                    print("OKay now user Can speak")
-                    self.main.UserCanSpeak=True
                     break
+
+                self.main.UserCanSpeak=False
 
                 print(f"Playing audio: {len(audio_data)} bytes")
 
@@ -92,6 +94,10 @@ class PiperTTS(DMSLMMain):
 
                     sd.play(audio_float, samplerate=22050, blocking=True)
                     print("Audio playback complete")
+                    import time
+                    time.sleep(2)
+                    self.main.UserCanSpeak=True
+
                     
 
 
@@ -104,6 +110,7 @@ class PiperTTS(DMSLMMain):
                     traceback.print_exc()
 
             except queue.Empty:
+                print("This happend right now")
                 continue
             except Exception as e:
                 print(f"Playback error: {e}")
@@ -112,7 +119,6 @@ class PiperTTS(DMSLMMain):
 
     def finish(self):
         """Call this when done to clean up"""
-        self.main.UserCanSpeak=True
         self.main.textOutputQueue.put(None)  # Signal text processor to finish
         self.text_processor_thread.join()
         

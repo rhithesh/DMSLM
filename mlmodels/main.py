@@ -93,9 +93,11 @@ class dMonitoring(DMSLMMain):
             return (abs(old[0] - new[0]) > 2 or abs(old[1] - new[1]) > 2)
 
         if need_update(self.bbox['left'], left_bbox):
+            self.main.event_queue.put({"event":"bbox_update","bbox":left_bbox})
             self.bbox['left'] = left_bbox
 
         if need_update(self.bbox['right'], right_bbox):
+            self.main.event_queue.put({"event":"bbox_update","bbox":left_bbox})
             self.bbox['right'] = right_bbox
 
     def crop_from_bbox(self, frame, bbox):
@@ -113,10 +115,6 @@ class dMonitoring(DMSLMMain):
         right_state = self.predict_eye(right_crop)
 
 
-        #producer.push( "time": time.time(),
-         #   "left_eye": left_state,
-        #    "right_eye": right_state
-         #)
 
         return {
             "time": time.time(),
@@ -135,7 +133,7 @@ class dMonitoring(DMSLMMain):
                 jpg = np.frombuffer(item["bytes"], dtype=np.uint8)
                 frame = cv2.imdecode(jpg, cv2.IMREAD_COLOR)
                 if frame is None:
-                    print("❌ Failed to decode frame, skipping")
+                    print("failed in decoding frame ")
                     continue
                 
                 self.update_bbox(frame)
@@ -151,7 +149,7 @@ class dMonitoring(DMSLMMain):
                 #print("end",time.time(),"ms")
                 #print("Added to processedImageJsonQueue")
             except Exception as e:
-                print("🔥 Error in continuscheck:", e)
+                print("Error in continuscheck from CLASS mlmodels:", e)
                 continue
 
 

@@ -5,7 +5,7 @@ import os
 class Helper:
     def __init__(self, main):
         self.main = main
-        self.api_key = "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"
+        self.api_key = "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"
         if not self.api_key:
             raise ValueError("OPENROUTER_API_KEY environment variable not set!")
         
@@ -62,6 +62,8 @@ class Helper:
                         data = decoded_line.replace("data: ", "")
                         
                         if data == "[DONE]":
+                            self.main.textOutputQueue.put(None)
+
                             
                             print("\n✅ Response complete")
                             break
