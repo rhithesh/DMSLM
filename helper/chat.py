@@ -5,7 +5,7 @@ import os
 class Helper:
     def __init__(self, main):
         self.main = main
-        self.api_key = ""
+        self.api_key = "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"
         if not self.api_key:
             raise ValueError("OPENROUTER_API_KEY environment variable not set!")
         

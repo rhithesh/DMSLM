@@ -117,7 +117,7 @@ class VoiceInput(DMSLMMain):
         if has_speech:
             # If just started speaking, clear old speech buffer
             if not self.speaking:
-                print("🎤 Speech detected, recording...")
+                print("Speech detected, recording.")
                 self.speech_buffer = np.array([], dtype=np.float32)
                 self.speaking = True
             
@@ -133,7 +133,7 @@ class VoiceInput(DMSLMMain):
         self.speaking = False
         
         duration = len(self.speech_buffer) / self.SAMPLE_RATE
-        print(f"🎤 Transcribing... ({duration:.1f}s of audio)")
+        print(f" Transcribing... ({duration:.1f}s of audio)")
         
         if len(self.speech_buffer) > 0:
             try:
@@ -148,7 +148,7 @@ class VoiceInput(DMSLMMain):
 
                 #this is happening aldready
                 if text:
-                    print(f"🎤 User said: {text}")
+                    print(f"User said: {text}")
                     
                     # Add user message to conversation history
                     user_message = {
@@ -169,8 +169,8 @@ class VoiceInput(DMSLMMain):
 
 
                     try:
-                        print("Is this happening")
-                        
+                        self.vad_buffer=np.array([], dtype=np.float32)
+                        self.speech_buffer = np.array([], dtype=np.float32)
 
                         from server import helper
                         helper.chatLLM(self.main.messages)
@@ -181,7 +181,7 @@ class VoiceInput(DMSLMMain):
 
                     
                     
-                    print(f"✅ Added to conversation (total messages: {len(self.main.messages)})")
+                    print(f"Added to conversation (total messages: {len(self.main.messages)})")
                     
                     # Trigger LLM to respond
                     if hasattr(self.main, 'voiceInputQueue'):
@@ -191,14 +191,14 @@ class VoiceInput(DMSLMMain):
                     print("(no speech detected)")
                     
             except Exception as e:
-                print(f"❌ Transcription error: {e}")
+                print(f" Transcription error: {e}")
                 import traceback
                 traceback.print_exc()
         
         # Reset buffers
         self.speech_buffer = np.array([], dtype=np.float32)
         self.vad_buffer = np.array([], dtype=np.float32)
-        print("🎤 Ready for next input...\n")
+        print("Ready for next input...\n")
     
 
 

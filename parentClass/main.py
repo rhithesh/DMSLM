@@ -24,6 +24,7 @@ class  DMSLMMain():
         while True:
             print(json.dumps(self.messages, indent=4))
             print("                 User   can speak                    ",self.UserCanSpeak      )   
+            self.event_queue.put({"messages":self.messages[-2:]})
 
             self.event_queue.put({"llm_activated":not self.UserCanSpeak})         
 
